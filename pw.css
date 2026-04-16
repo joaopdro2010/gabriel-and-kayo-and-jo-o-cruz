@@ -1,0 +1,45 @@
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Layout */
+.container {
+    display: flex;
+}
+
+/* Cores */
+header {
+    background-color: #ff6b6b;
+    padding:50px;
+}
+
+nav {
+    background-color: #4ecdc4;
+    padding: 50px;
+}
+
+section {
+    background-color: #ffe66d;
+    padding: 50px;
+    flex: 2;
+}
+
+article {
+    background-color: #ff9f1c;
+    padding: 50px;
+    margin-top: 10px;
+}
+
+aside {
+    background-color: #5f6caf;
+    padding: 50px;
+    flex: 1;
+    color: white;
+}
+
+footer {
+    background-color: #1a535c;
+    padding: 50px;
+    color: white;
+}
